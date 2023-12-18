@@ -31,7 +31,7 @@
     padding: 0;
     padding-bottom: 20px;
   }
-  strong {
+  .container strong {
     font-size: 20px;
   }
   p {
@@ -46,6 +46,19 @@
     padding-bottom: 5px;
     font-size: 16px;
     font-family: 'Source Sans 3', sans-serif;
+  }
+  .container p strong {
+    font-size: 30px;
+  }
+  button {
+    font-size: 20px;
+    padding: 5px 10px;
+    font-family: 'Lora', serif;
+    transition: 0.2s;
+    border-radius: 3px; background: transparent; border: 1px solid black
+  }
+  button:hover {
+    border: 1px solid purple
   }
   @media (max-width: 768px) {
     .container {
@@ -68,37 +81,88 @@
 
   <strong>Rachel Westlake Consulting</strong>
   <p>I help people, organizations, and communities tap into patient-centered strategies that improve care outcomes, foster self-advocacy, and inspire collaborative culture.</p>
+  <button onclick="window.location.href = 'mailto:rachel@cycadianhealth.com&Subject=Booking a call about self-advocacy consulting for our organization!'">Book a call</button>
   <br>
   <div class="expand">
     <p>While I could educate myself about my cancer - a blood cancer called multiple myeloma - <em>I struggled with finding anything but generic guidance about self-advocacy.</em></p>
     <p style="text-align: left; margin-left: 10%;">- Fawn, Patient <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="Scheer_headshot.jpg"></p>
   </div>
+  <!-- <div class="expand" style="border-radius: 3px; border: 1px solid skyblue; max-height: 200px; overflow: hidden; ">
+    <p style="text-align:left; padding: 10px;"><strong>Case Study:</strong> building advocacy infrastructure for the One Fact Foundation.</p>
+    <img src="/campflyer.png" width="100%" height="auto">
+  </div> -->
   <br><br>
-  <strong>The current healthcare system makes little room for self-advocating, engaged patients</strong>
-  <p>But participating patients and systems with truly shared decision-making report better outcomes and improved wellbeing during care.
+  <strong>Engaged patients have better outcomes...</strong>
+  <p>But self-advocacy is hard. It can’t come from a fact sheet or top-down policy change, and it takes training for all stakeholders, not <em>just</em> patients. 
         <ul style="display:none">
             <li>Outcomes: </li>
                    <li>Satisfaction:</li>
       <li>Wellbeing: participating patients feel better. </li>
   </ul>
   </p>
-    
   <br>
   <div class="expand">
-    <p>[Rachel] understands the patient experience and has a natural ability to help someone navigate through roadblocks... She also has a natural ability to turn ideas into action. Rachel has strong ethics and is clearly committed to improving the way health care is done.</p>
-    <p style="text-align: left; margin-left: 10%;">- Stacie Lampkin, Pediatric Pharmacist & Startup Founder <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+    <p>[Rachel] understands the patient experience and has a natural ability to help someone navigate through roadblocks... to turn ideas into action.</p>
+    <p style="text-align: left; margin-left: 10%;">- Stacie Lampkin, Pediatric Pharmacist & Founder <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
   </div>
   <br><br>
-  <strong>The Patient-Centered Mindset</strong>
-  <p>I envision a future where engaged patients are the norm, and where supporting a self-advocating patient is a hallmark of a responsive, inclusive, and relentlessly patient-focused system. <em>All my work is toward that future.</em></p>
+  <strong>Myth #1</strong>
+  <p>"If patients don’t have concrete symptoms to report, there’s nothing they can do to improve their outcomes."</p>
   <br>
-    <p style="display: none">Compassionate care, successful projects, and improved outcomes begin with patient agency—a patient prepared to navigate the healthcare landscape with confidence and support.</p>
+    <p><strong>Reality</strong>: Participating patients and systems with truly shared decision-making report better outcomes and improved wellbeing during care.</p>
+    <button onclick="window.location.href = 'mailto:rachel@cycadianhealth.com&Subject=Booking a call about self-advocacy consulting for our healthcare org!'">Learn about services for hospitals</button>
+  <br><br>
   <div class="expand">
-    <p>[Rachel] got to work organizing a series of meetings to engage industry leaders that would forward the profession, serve advocates and patients, and benefit all parties. Her facilitation, diplomacy, and individualized approach quickly earned the respect of participants. Her strategic and systematic leadership skills will advance the profession of independent health advocacy.</p>
+    <p>Rachel's assistance was invaluable in providing the smoothest possible path for the patient and myself to communicate and make progress toward optimal health. </p>
+    <p style="text-align: left; margin-left: 10%;">- Deborah Angersbach, Care Provider <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+  </div>
+  <br><br>
+  <strong>Myth #2</strong>
+  <p>"Patients need to be 100% fluent in the healthcare system to engage, and if they're fluent, they'll always engage."</p>
+  <p><strong>Reality</strong>: They need a patient-centered mindset.</p>
+  <button onclick="window.location.href = 'mailto:rachel@cycadianhealth.com?Subject=Booking a call about self-advocacy consulting for our Educational Institution'">Learn about services for educational institutions</button>
+  <br><br>
+  <!-- <p style="display: none">I envision a future where engaged patients are the norm, and where supporting a self-advocating patient is a hallmark of a responsive, inclusive, and relentlessly patient-focused system. <em>All my work is toward that future.</em></p> -->
+    <!-- <p style="display: none">Compassionate care, successful projects, and improved outcomes begin with patient agency—a patient prepared to navigate the healthcare landscape with confidence and support.</p> -->
+  <div class="expand">
+    <p>[Rachel] got to work organizing a series of meetings to engage industry leaders that would forward the profession, serve advocates and patients, and benefit all parties. Her <em>facilitation, diplomacy, and individualized approach</em> quickly earned the respect of participants. </p>
     <p style="text-align: left; margin-left: 10%;">- L. Bradley Schwartz, President, Greater National Advocates <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
   </div>
   <br><br>
-  <strong>Approach</strong>
+  <strong>Myth #3</strong>
+  <p>"Companies and community organizations can’t do anything to change how their members are treated."</p>
+  <p><strong>Reality</strong>: They need a patient-centered mindset.</p>
+  <button onclick="window.location.href = 'mailto:rachel@cycadianhealth.com?Subject=Booking a call about self-advocacy consulting for our startup/nonprofit'">Learn about services for startups and nonprofits</button>
+  <br><br>
+  <div class="expand">
+    <p style="display:none">As Chief Advocate, Rachel vetted our non-profit's approach to building public products and materials through outreach to patient-forward organizations and individuals. Through this outreach, single-handedly <em>seeded the patient-facing guidance material and was thus instrumental in helping launch our non-profit. </em></p>
+    <p>Rachel excels at bringing a patient and health care consumer-centered lens to complex technology such as AI. In building AI-enabled consumer-, clinician- and employer-facing products together, Rachel informed core UI/UX decisions and strategy. </p>
+      <p style="text-align: left; margin-left: 10%;">- Jaan Altosaar PhD., Nonprofit Founder <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+  </div>
+  <br><br>
+  <strong>Myth #4</strong>
+  <p>"Agency is only developed by the patient."</p>
+  <p><strong>Reality</strong>: There are dozens of small and system-wide changes all stakeholders can make that help patients feel more comfortable, improving satisfaction and wellbeing during care.[<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9306934/#shil13435-bib-0003">1</a>]</p>
+  <br>
+  <div class="expand">
+    <p>[Rachel] is a brilliant facilitator, by bringing ‘all of herself’ to the table, she secures participants’ buy-in. She may at times cajole, at others forcefully nudge, but she is always fair and professional and makes consensus building look effortless.</p>
+    <p style="text-align: left; margin-left: 10%;">- Heidi Kummer, MD, President, Patient Advocacy Certification Board <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+  </div>
+  <br><br>
+  <p >I envision a future where engaged patients are the norm, and where supporting a self-advocating patient is a hallmark of a responsive, inclusive, and relentlessly patient-focused system.</p>
+  <br>
+  <div class="expand">
+    <p>I’ve worked with Rachel for close to two years, since she helped Patients Rising develop and create the DEI Board. In it, <em>Rachel faithfully champions patients and caregivers.</em></p>
+    <p style="text-align: left; margin-left: 10%;">- Jim Sliney Jr., Chief Patient Officer <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+  </div>
+  <br><br>
+  <p>Patient-centered means trauma-informed, because everyone brings their own background to the table. It means data-driven, because we can't achieve small <em>or</em> systemwide change without the right information.</p>
+    <p style="display: none">Compassionate care, successful projects, and improved outcomes begin with patient agency—a patient prepared to navigate the healthcare landscape with confidence and support.</p>
+  <!-- <div class="expand">
+    <p>[Rachel] got to work organizing a series of meetings to engage industry leaders that would forward the profession, serve advocates and patients, and benefit all parties. Her facilitation, diplomacy, and individualized approach quickly earned the respect of participants. Her strategic and systematic leadership skills will advance the profession of independent health advocacy.</p>
+    <p style="text-align: left; margin-left: 10%;">- L. Bradley Schwartz, President, Greater National Advocates <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
+  </div> -->
+  <!-- <strong>Approach</strong>
   <ul>
       <li><p>Patient-Centered Mindset
 </p></li>
@@ -110,21 +174,13 @@
 </p></li>
              <li><p>Small Change & System-Change
 </p></li>
-  </ul>
-  <br>
-      <div class="expand">
-    <p>Rachel's assistance was invaluable in providing the smoothest possible path for the patient and myself to communicate and make progress toward optimal health. She is very knowledgeable about health and the medical system, and <em>entirely committed to serving her clients at whatever level they require.</em></p>
-    <p style="text-align: left; margin-left: 10%;">- Deborah Angersbach, Care Provider <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
-  </div>
-  <br><br>
-        <strong>Services For Health Care Organizations and Institutions</strong>
+  </ul> -->
+
+        <!-- <strong>Services For Health Care Organizations and Institutions</strong>
     <p>My work involves partnering with various organizations to develop and implement strategies that promote patient-centered care and self-advocacy. This includes creating educational programs, conducting workshops, and advising</p>
-<br>
-          <div class="expand">
-    <p>I’ve worked with Rachel for close to two years, since she helped Patients Rising develop and create the DEI Board, on which she remains an active member. In it, <em>Rachel faithfully champions patients and caregivers.</em></p>
-    <p style="text-align: left; margin-left: 10%;">- Jim Sliney Jr., Chief Patient Officer <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
-  </div>
-    <br><br>
+<br> -->
+
+    <!-- <br><br>
     <strong>Services For Startups and Pharmaceutical Companies</strong>
 <br>
       <div class="expand">
@@ -132,9 +188,9 @@
     <p>Rachel excels at bringing a patient and health care consumer-centered lens to complex technology such as AI. In building AI-enabled consumer-, clinician- and employer-facing products together, Rachel informed core UI/UX decisions and strategy. </p>
       <p style="text-align: left; margin-left: 10%;">- Jaan Altosaar PhD., Nonprofit Founder <img width="24px" height="24px" style="border-radius: 12px; vertical-align: text-bottom;" src="images/allison_face.jpeg"></p>
   </div>
-  <br><br>
+  <br><br> -->
 
-
+<br><br><br>
 </div>
 </body>
 </html>
